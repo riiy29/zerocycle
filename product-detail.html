@@ -101,176 +101,64 @@
             </div>
         </section>
 
-        <!-- Filter -->
-        <section class="filter mt-4">
+        <!-- Section Product Detail -->
+        <section class="detail-product pb-5">
             <div class="container">
-                <div class="row wrap-filter">
-                    <div class="col-12 col-sm-8 col-md-7 p-0">
-                        <!-- Search Bar -->
-                        <div class="main-search-input-wrap">
-                            <form method="get">
-                                <div class="main-search-input d-flex">
-                                    <div class="main-search-input-item">
-                                        <input type="text" name="search" placeholder="What are u looking for ?" value="" > 
-                                    </div> 
-                                    <button class="main-search-button" type="submit">Search</button>
+                <div class="row">
+                    <div class="col-md-12 col-lg-5">
+                        <!-- Slider Product -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <!-- Thumbnail -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_4.png?v=1648809976" class="img-fluid d-block" alt="...">
+                                </button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_1.png?v=1644321213" class="img-fluid d-block" alt="...">
+                                </button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_2_1950x.png?v=1646476086" class="img-fluid d-block" alt="...">
+                                </button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_4.png?v=1648809976" class="img-fluid" alt="...">
                                 </div>
-                            </form>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_1.png?v=1644321213" class="img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.shopify.com/s/files/1/1933/8701/files/Website_700_x_250_px_2_1950x.png?v=1646476086" class="img-fluid" alt="...">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-5 p-0">
-                        <!-- Dropdown Filter -->
-                        <div class="dropdown">
-                            <button class="btn btn-transparent " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              sort <i class="fas fa-sort-amount-down"></i>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">featured</a></li>
-                              <li><a class="dropdown-item" href="#">best selling</a></li>
-                              <li><a class="dropdown-item" href="#">price ( to high )</a></li>
-                              <li><a class="dropdown-item" href="#">price ( to low )</a></li>
-                            </ul>
+                    <div class="col-md-12 col-lg-7">
+                        <div class="wrap-text">
+                            <div class="subhead">
+                                <h3 class="title mb-3">
+                                    SOUMA LEATHER BAR TAPE - BROWN
+                                </h3>
+                                <h3 class="price">
+                                    Rp.  1.000.000
+                                </h3>
+                            </div>
+                            <p>Bar tape is made from one piece of long lasting top quality full grain leather which provides unique all natural feel while riding.
+                                We have taken what we think makes great handlebar tape and made sure that our leather handlebar tape meets all the requirements.
+                                Tape is 2,5mm thick in the middle and thins down to 0,6mm on the ends. Thanks to this there is enough material to provide comfortable grip, while maintaining smooth transitions between each wrap.
+                            </p>
+                            <div class="qty">
+                                <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                <input type="text" value="1">
+                                <span class="up" onClick='increaseCount(event, this)'>+</span>
+                            </div>
+                            <a class="btn btn-addcart" href="#">
+                                add to cart
+                            </a>
                         </div>
                     </div>
-                    
                 </div>
-                
-            </div>
-           
-        </section>
-
-        <!-- Section Item -->
-        <section class="item">
-            <div class="container">
-    
-                <div class="product-grid">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
-                            <div class="wrap">
-                                <a href="" class="link-item">
-                                    <div class="img-item">  
-                                        <img src="https://cdn.shopify.com/s/files/1/1933/8701/products/PANT_HARDOLIVE_DER_720x.jpg?v=1656691566" alt="" class="img-fluid">
-                                    </div>
-                                    
-                                    <div class="text">
-                                        <p>Biehler Essential Jersey - Black</p>
-                                        <span>Rp. 1.700.000</span>
-                                    </div>
-                                </a>   
-                            </div>
-                                               
-                        </div>
-                    </div>
-
-                    <!-- <div class="button-page">
-                        <a href="" class="btn btn-block"> View All</a>
-                    </div> -->
-                </div>
+               
             </div>
         </section>
 
@@ -326,7 +214,25 @@
 
     </div>
     
-       
+    <script>
+        function increaseCount(a, b) {
+            var input = b.previousElementSibling;
+            var value = parseInt(input.value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            input.value = value;
+        }
+
+        function decreaseCount(a, b) {
+            var input = b.nextElementSibling;
+            var value = parseInt(input.value, 10);
+            if (value > 1) {
+                value = isNaN(value) ? 0 : value;
+                value--;
+                input.value = value;
+            }
+        }
+    </script>
 
     
 
